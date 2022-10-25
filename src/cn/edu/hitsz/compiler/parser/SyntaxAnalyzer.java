@@ -41,7 +41,7 @@ public class SyntaxAnalyzer {
      */
     public void registerObserver(ActionObserver observer) {
         observers.add(observer);
-        //observer.setSymbolTable(symbolTable);
+        observer.setSymbolTable(symbolTable);
     }
 
     /**

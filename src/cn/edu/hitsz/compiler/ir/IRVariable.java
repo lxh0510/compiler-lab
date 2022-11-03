@@ -24,6 +24,7 @@ public class IRVariable implements IRValue {
         return new IRVariable("$" + count++);
     }
 
+    @Override
     public String getName() {
         return name;
     }

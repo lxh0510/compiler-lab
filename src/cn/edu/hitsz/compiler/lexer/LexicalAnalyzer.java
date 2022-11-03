@@ -25,9 +25,9 @@ public class LexicalAnalyzer {
     public LexicalAnalyzer(SymbolTable symbolTable) {
         this.symbolTable = symbolTable;
     }
-    //词法分析器需要分析的内容
+    // 词法分析器需要分析的内容
     private String content;
-    //需要得到的tokens列表
+    // 需要得到的tokens列表
     private final List<Token> tokens = new ArrayList<>();
 
     /**

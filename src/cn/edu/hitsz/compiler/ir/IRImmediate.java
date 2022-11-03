@@ -8,6 +8,7 @@ public class IRImmediate implements IRValue {
         return new IRImmediate(value);
     }
 
+    @Override
     public int getValue() {
         return value;
     }
